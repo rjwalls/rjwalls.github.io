@@ -1,5 +1,5 @@
-name: Awesome Research Group
-url: http://awesome.example.edu
+name: Robert J. Walls
+url: http://rjwalls.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -30,14 +30,14 @@ front_page_news: 8
 base: ''
 
 # Navigation bar links.
-navigation:
-    - title: Home
-      link: /
-    - title: People
-      link: /people.html
-    - title: Research
-      link: /research/
-    - title: Publications
-      link: /publications.html
-    - title: Code
-      link: /code.html
+#navigation:
+#    - title: Home
+#      link: /
+#    - title: People
+#      link: /people.html
+#    - title: Research
+#      link: /research/
+#    - title: Publications
+#      link: /publications.html
+#    - title: Code
+#      link: /code.html
