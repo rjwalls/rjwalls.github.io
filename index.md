@@ -33,6 +33,13 @@ Privacy category.
 
 **Email:** rjwalls@cse.psu.edu
 
+### News
+
+I am a member of the program committee for the Workshop on Cyber Security
+Experimentation and Test. Please consider submitting a paper! 
+
+{% include cset.html %} 
+
 ### Publications
 
 {% include pubs.html %}
