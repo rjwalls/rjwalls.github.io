@@ -31,6 +31,8 @@ the department's Outstanding Synthesis Project award. I am also honored to have
 received the 2011 Yahoo Key Scientific Challenges award in the Security &
 Privacy category.
 
+**Projects.** You can read about some of my projects [here]({{ site.base }}/code.html).
+
 **Email:** rjwalls@cse.psu.edu
 
 ### News
