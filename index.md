@@ -6,7 +6,7 @@ notitle: true
 
 ## Robert J. Walls
 
-![Robert J. Walls]({{ site.base }}/walls-sm.jpg)
+![Robert J. Walls]({{ site.base }}/img/walls-sm.jpg)
 
 I am a postdoctoral scholar in Department of Computer Science at The
 Pennsylvania State University working with [Prof. Patrick

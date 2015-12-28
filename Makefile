@@ -14,7 +14,7 @@ _includes/pubs.html: bib/mypapers.bib bib/publications.tmpl
 	$(PYTHON) bibble/bibble.py $+ > $@
 
 _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
-	_layouts/default.html
+	_layouts/default.html 
 
 clean:
 	$(RM) -r _site _includes/pubs.html

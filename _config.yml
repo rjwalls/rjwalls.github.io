@@ -27,7 +27,7 @@ roles:
 front_page_news: 8
 
 # Base pathname for links.
-base: 'http://www.cse.psu.edu/~rjwalls'
+base: 'http://www.cse.psu.edu/~rjw37'
 
 # Navigation bar links.
 #navigation:
