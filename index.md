@@ -33,6 +33,9 @@ Privacy category.
 
 **Projects.** You can read about some of my projects [here]({{ site.base }}/code.html).
 
+**Google Scholar.**
+[Link](https://scholar.google.com/citations?user=7yHU8hMAAAAJ&hl=en) 
+
 **Email:** rjwalls@cse.psu.edu
 
 ### Publications
