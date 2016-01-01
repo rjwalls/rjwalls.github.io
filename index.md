@@ -8,6 +8,8 @@ notitle: true
 
 ![Robert J. Walls]({{ site.base }}/img/walls-sm.jpg)
 
+### About Me
+
 I am a postdoctoral scholar in Department of Computer Science at The
 Pennsylvania State University working with [Prof. Patrick
 McDaniel](http://www.patrickmcdaniel.org/).  My research is focused on
