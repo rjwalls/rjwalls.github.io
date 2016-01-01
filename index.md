@@ -58,19 +58,17 @@ or the data has been logically deleted.
 [Github](https://github.com/umass-forensics/DEC0DE-forensics).
 
 
-#### Misc. Projects
+#### Improving the Process
 
-**Latex Paper Template.** Tired of wasting half an hour setting up your paper
+Like all computer scientists, I am constantly on the lookout for tools or
+methods that will help me be more efficient in my work. Here are a few
+repositories that you may find helpful.
+ - *Latex Paper Template.* Tired of wasting half an hour setting up your paper
 directory every time you start a new project? Try my paper template 
-instead.
-
-*Source Code:* [Github](https://github.com/rjwalls/paper-template)
-
-**Slidify Example.** I am a big fan of presentations, R, and Markdown---Slidify
-beautifully combines all three. Check out my simple Slidify example
-[here](http://rjwalls.github.io/SlidifyTest).
-
-*Source Code:* [Github](https://github.com/rjwalls/SlidifyTest)
+instead. Source Code: [Github](https://github.com/rjwalls/paper-template)
+ - *Slidify Tutorial.* I am a big fan of presentations, R, and Markdown---Slidify
+beautifully combines all three. Check out my simple Slidify tutorial 
+[here](http://rjwalls.github.io/SlidifyTest). Source Code: [Github](https://github.com/rjwalls/SlidifyTest)
 
 ### Publications
 
