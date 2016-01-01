@@ -49,12 +49,12 @@ during my career. Here is a summary of some of my efforts.
 Mobile phones contain evidence that is invaluable for criminal investigations.
 However, commercially-available forensic tools must be hand-tailored to each
 phone model. If no tools support the target phone, then extracting the phone's
-information requires investigators to manually examine each byte on the phone.
-To address this problem,  I've worked on developing general algorithms and
-techniques for recovering information from phones, even if the exact  storage
-format is unknown or the data has been logically deleted. 
+information requires investigators to  examine the stored data byte by byte.
+To address this problem,  I've developed general algorithms and techniques for
+recovering information from phones even if the exact  storage format is unknown
+or the data has been logically deleted. 
 
-Our prototype, DEC0DE, is available on
+*Source Code:* Our prototype, DEC0DE, is available on
 [Github](https://github.com/umass-forensics/DEC0DE-forensics).
 
 
