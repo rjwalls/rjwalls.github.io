@@ -33,12 +33,44 @@ the department's Outstanding Synthesis Project award. I am also honored to have
 received the 2011 Yahoo Key Scientific Challenges award in the Security &
 Privacy category.
 
-**Projects.** You can read about some of my projects [here]({{ site.base }}/code.html).
 
 **Google Scholar.**
 [Link](https://scholar.google.com/citations?user=7yHU8hMAAAAJ&hl=en) 
 
 **Email:** rjwalls@cse.psu.edu
+
+### Projects
+
+I've had the opportunity to work on a number of interesting research projects
+during my career. Here is a summary of some of my efforts. 
+
+#### Phone Forensics
+
+Mobile phones contain evidence that is invaluable for criminal investigations.
+However, commercially-available forensic tools must be hand-tailored to each
+phone model. If no tools support the target phone, then extracting the phone's
+information requires investigators to manually examine each byte on the phone.
+To address this problem,  I've worked on developing general algorithms and
+techniques for recovering information from phones, even if the exact  storage
+format is unknown or the data has been logically deleted. 
+
+Our prototype, DEC0DE, is available on
+[Github](https://github.com/umass-forensics/DEC0DE-forensics).
+
+
+#### Misc. Projects
+
+**Latex Paper Template.** Tired of wasting half an hour setting up your paper
+directory every time you start a new project? Try my paper template 
+instead.
+
+*Source Code:* [Github](https://github.com/rjwalls/paper-template)
+
+**Slidify Example.** I am a big fan of presentations, R, and Markdown---Slidify
+beautifully combines all three. Check out my simple Slidify example
+[here](http://rjwalls.github.io/SlidifyTest).
+
+*Source Code:* [Github](https://github.com/rjwalls/SlidifyTest)
 
 ### Publications
 
