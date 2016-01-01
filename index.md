@@ -10,9 +10,9 @@ notitle: true
 
 ### About Me
 
-I am a postdoctoral scholar in Department of Computer Science at The
-Pennsylvania State University working with [Prof. Patrick
-McDaniel](http://www.patrickmcdaniel.org/).  My research is focused on
+I am a postdoctoral scholar in Department of Electrical Engineering and
+Computer Science at The Pennsylvania State University working with [Prof.
+Patrick McDaniel](http://www.patrickmcdaniel.org/).  My research is focused on
 developing the science of security.
 
 Previously, I attended the School of Computer Science at the [University of
