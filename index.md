@@ -1,12 +1,8 @@
 ---
-layout: default_minimal
+layout: default_minimal_2col
 title: Home
 notitle: true
 ---
-
-## Robert J. Walls
-
-![Robert J. Walls]({{ site.base }}/img/walls-sm.jpg)
 
 ### About Me
 
@@ -34,12 +30,6 @@ While at UMass, I was admitted to Ph.D candidacy with distinction and awarded
 the department's Outstanding Synthesis Project award. I am also honored to have
 received the 2011 Yahoo Key Scientific Challenges award in the Security &
 Privacy category.
-
-
-**Google Scholar.**
-[Link](https://scholar.google.com/citations?user=7yHU8hMAAAAJ&hl=en) 
-
-**Email:** rjwalls@cse.psu.edu
 
 ### Projects
 
