@@ -69,24 +69,23 @@ To address this problem,  I've developed general algorithms and techniques for
 recovering information from phones even if the exact  storage format is unknown
 or the data has been logically deleted. 
 
-*DECODE* is an inference engine that extracts meaningful information from raw
-byte streams. 
-[Paper][decode]. [Github](https://github.com/umass-forensics/DEC0DE-forensics).
+[DECODE](https://github.com/umass-forensics/DEC0DE-forensics) is an inference engine that extracts meaningful information from raw
+byte streams. Read more about it [here][decode]. 
 
-*Liftr* incorporates investigator
-feedback and relevance graphs to improve the results of inference engines like
-DEC0DE. [Paper][liftr] [Github](https://github.com/umass-forensics/Liftr-forensics)
+[Liftr](https://github.com/umass-forensics/Liftr-forensics) incorporates
+investigator feedback and relevance graphs to improve the results of inference
+engines like DEC0DE. [Paper here][liftr].
 
-*Yapr* parses the Yaffs File System commonly found on (older) Android phones.
-Yapr even has limited ability to reconstruct past versions of a file by
-leverage expired pages of flash memory.
-[Github](https://github.com/rjwalls/YaffsParser) 
+[Yapr](https://github.com/rjwalls/YaffsParser) parses the Yaffs File System
+commonly found on (older) Android phones.  Yapr even has limited ability to
+reconstruct past versions of a file by leverage expired pages of flash memory.
 
-*Filtr* implements the concept of block hash filtering using bloom filters. In
-short, Filtr will remove an repeated blocks of data in a raw byte stream. For
-flash-based devices, such as phones, Filtr often removes 50-90% of the raw
-data, saving precious time by limited the amount of data that needs to be
-examines. Read more about block hash filtering [here][decode]. [Github](https://github.com/rjwalls/Filtr)
+[Filtr](https://github.com/rjwalls/Filtr) implements the concept of block hash
+filtering using bloom filters. In short, Filtr will remove an repeated blocks
+of data in a raw byte stream. For flash-based devices, such as phones, Filtr
+often removes 50-90% of the raw data, saving precious time by limited the
+amount of data that needs to be examines. Read more about block hash filtering
+[here][decode]. 
 
 [decode]: http://forensics.umass.edu/pubs/Walls.usenixSecurity.2011.pdf
 [liftr]:http://forensics.umass.edu/pubs/varma.spsm.2014.pdf
@@ -111,15 +110,16 @@ future states to make optimal security decisions.
 Like all computer scientists, I am constantly on the lookout for tools or
 methods that will help me be more efficient in my work. Here are a few
 repositories that you may find helpful.
- - *Latex Paper Template.* Tired of wasting half an hour setting up your paper
+ 
+[Latex Paper Template.](https://github.com/rjwalls/paper-template) Tired of wasting half an hour setting up your paper
    directory every time you start a new project? Try my paper template instead.
-Source Code: [Github](https://github.com/rjwalls/paper-template)
- - *Slidify Tutorial.* I am a big fan of presentations, R, and
-   Markdown---Slidify beautifully combines all three. Check out my simple
-Slidify tutorial [here](http://rjwalls.github.io/SlidifyTest). Source Code:
-[Github](https://github.com/rjwalls/SlidifyTest)
- - *Taskr.* This simple command line utility helps manage how you spend
-   your time. Source Code: [Github](https://github.com/rjwalls/Task://github.com/rjwalls/Taskr)
+
+[Slidify Tutorial.](https://github.com/rjwalls/SlidifyTest) I am a big fan of
+presentations, R, and Markdown---Slidify beautifully combines all three. Check
+out my simple Slidify tutorial [here](http://rjwalls.github.io/SlidifyTest).
+
+[Taskr.](https://github.com/rjwalls/Taskr) This simple command line utility
+helps manage how you spend your time. 
 
 
 
