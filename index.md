@@ -6,8 +6,9 @@ notitle: true
 
 ### News
 
-*Going to Oakland*: Our paper "Domain-Z: 28 Registrations Later" was accepted
-to the IEEE Symposium on Security and Privacy.
+**Going to Oakland**: Our paper "Domain-Z: 28 Registrations Later" was accepted
+to the [IEEE Symposium on Security and
+Privacy](http://www.ieee-security.org/TC/SP2016/).
 
 ### About Me
 
