@@ -4,6 +4,11 @@ title: Home
 notitle: true
 ---
 
+### News
+
+*Going to Oakland*: Our paper "Domain-Z: 28 Registrations Later" was accepted
+to the IEEE Symposium on Security and Privacy.
+
 ### About Me
 
 I am a postdoctoral scholar in Department of Electrical Engineering and
