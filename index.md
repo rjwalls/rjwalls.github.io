@@ -6,6 +6,9 @@ notitle: true
 
 ### News
 
+**Reviewing papers**: I've joined the program committee for the [2016 IEEE
+International Conference on Network Protocols](http://icnp2016.comp.nus.edu.sg/).
+
 **Going to Oakland**: Our paper "Domain-Z: 28 Registrations Later" was accepted
 to the [IEEE Symposium on Security and
 Privacy](http://www.ieee-security.org/TC/SP2016/).
