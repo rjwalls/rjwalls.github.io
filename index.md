@@ -6,6 +6,9 @@ notitle: true
 
 ### News
 
+
+**Teaching**: I'll be teaching Software Security (CS 557) in the fall semester.  
+
 **Reviewing papers**: I've joined the program committee for the [2016 IEEE
 International Conference on Network Protocols](http://icnp2016.comp.nus.edu.sg/).
 
@@ -15,30 +18,19 @@ Privacy](http://www.ieee-security.org/TC/SP2016/).
 
 ### About Me
 
-I am a postdoctoral scholar in Department of Electrical Engineering and
-Computer Science at The Pennsylvania State University working with [Prof.
-Patrick McDaniel](http://www.patrickmcdaniel.org/).  My research focuses on
-large-scale systems security.
+I am an assistant professor in the Department of Computer Science at Worcester
+Polytechnic Institute. My research focuses on large-scale systems security and
+digital forensics.
 
-Previously, I attended the School of Computer Science at the [University of
+Previously, I was a postdoctoral scholar in Department of Electrical
+Engineering and Computer Science at The Pennsylvania State University working
+with [Prof.  Patrick McDaniel](http://www.patrickmcdaniel.org/).  Before that,
+I attended the School of Computer Science at the [University of
 Massachusetts](http://www.cs.umass.edu/) advised by [Prof. Brian
-Levine](http://people.cs.umass.edu/~brian/). My research there focused on
-advancing digital forensics by providing law enforcement with novel techniques
-for investigating crimes. My past work includes an inference-based approach for
-mobile phone triage and an in-depth analysis of contraband on peer-to-peer
-networks. You can find my view on the difference between forensics and security
+Levine](http://people.cs.umass.edu/~brian/). My research at UMass focused on
+providing law enforcement with novel techniques for investigating crimes. You
+can find my thoughts on the difference between forensics and security
 [here](http://forensics.umass.edu/publications.php?q=Walls:2011a).
-
-I studied at [The University of Texas at Arlington](http://www.cse.uta.edu/)
-under the direction of [Prof. Matthew Wright](http://isec.uta.edu/mwright/).
-While there I focused on network security and was awarded the CSE Outstanding
-Master’s thesis award for my work on the design and detection of covert timing
-channels.
-
-While at UMass, I was admitted to Ph.D candidacy with distinction and awarded
-the department's Outstanding Synthesis Project award. I am also honored to have
-received the 2011 Yahoo Key Scientific Challenges award in the Security &
-Privacy category.
 
 ### Projects
 
@@ -129,7 +121,6 @@ out my simple Slidify tutorial [here](http://rjwalls.github.io/SlidifyTest).
 
 [Taskr.](https://github.com/rjwalls/Taskr) This simple command line utility
 helps manage how you spend your time. 
-
 
 
 ### Publications
