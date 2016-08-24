@@ -7,7 +7,7 @@ notitle: true
 ### News
 
 
-**Teaching**: I'll be teaching Software Security (CS 557) in the fall semester.  
+**Teaching**: I'll be teaching [Software Security (CS 557)](https://ia.wpi.edu/cs557/) in the fall semester.  
 
 **Reviewing papers**: I've joined the program committee for the [2016 IEEE
 International Conference on Network Protocols](http://icnp2016.comp.nus.edu.sg/).
