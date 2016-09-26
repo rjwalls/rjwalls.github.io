@@ -9,16 +9,6 @@ notitle: true
 **Students!**: I am currently looking for motivated and qualified students. If you
 are a WPI student, please send me an email or stop by.
 
-
-**Teaching**: I'll be teaching [Software Security (CS 557)](https://ia.wpi.edu/cs557/) in the fall semester.  
-
-**Reviewing papers**: I've joined the program committee for the [2016 IEEE
-International Conference on Network Protocols](http://icnp2016.comp.nus.edu.sg/).
-
-**Going to Oakland**: Our paper "Domain-Z: 28 Registrations Later" was accepted
-to the [IEEE Symposium on Security and
-Privacy](http://www.ieee-security.org/TC/SP2016/).
-
 ### About Me
 
 I am an assistant professor in the Department of Computer Science at Worcester
