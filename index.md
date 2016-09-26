@@ -6,6 +6,9 @@ notitle: true
 
 ### News
 
+**Students!**: I am always looking for motivated and qualified students. If you
+are a current WPI student, please send me an email or stop by.
+
 
 **Teaching**: I'll be teaching [Software Security (CS 557)](https://ia.wpi.edu/cs557/) in the fall semester.  
 
