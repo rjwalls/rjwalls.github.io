@@ -13,12 +13,11 @@ are a WPI student, please send me an email or stop by.
 
 I am an assistant professor in the Department of Computer Science at Worcester
 Polytechnic Institute. My research focuses on large-scale systems security and
-digital forensics.
-
-Previously, I was a postdoctoral scholar in Department of Electrical
-Engineering and Computer Science at The Pennsylvania State University working
-with [Prof.  Patrick McDaniel](http://www.patrickmcdaniel.org/).  Before that,
-I attended the School of Computer Science at the [University of
+digital forensics. Previously, I was a postdoctoral scholar in Department of
+Electrical Engineering and Computer Science at The Pennsylvania State
+University working with [Prof.  Patrick
+McDaniel](http://www.patrickmcdaniel.org/).  Before that, I attended the School
+of Computer Science at the [University of
 Massachusetts](http://www.cs.umass.edu/) advised by [Prof. Brian
 Levine](http://people.cs.umass.edu/~brian/). My research at UMass focused on
 providing law enforcement with novel techniques for investigating crimes. You
@@ -87,13 +86,13 @@ amount of data that needs to be examines. Read more about block hash filtering
 
 #### Science of Security
 
-Perhaps the most  ambitious projects I am involved in is the 10-year
+Perhaps the most  ambitious projects I've been involved in is the 10-year
 Cyber-Security Collaborative Research Alliance ([CSec CRA][cra]) with the Army
 Research Laboratory, Penn State, Carnegie Mellon, UC Riverside, UC Davis, and
-Indiana University. Our mandate is to develop a new science of security. As
-part of this effort, I've worked on the foundation for representing of
-operational and environmental knowledge. (See my work on ontologies
-[here][ontology1]). Our goal to reason about both current and
+Indiana University. The project's mandate is to develop a new science of
+security. As part of this effort, I've worked on the foundation for
+representing operational and environmental knowledge---see my work on
+ontologies [here][ontology1]---with the goal of reasoning about both current and
 future states to make optimal security decisions. 
 
 [cra]: http://cra.psu.edu/
