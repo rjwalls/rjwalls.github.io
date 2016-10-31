@@ -6,6 +6,10 @@ notitle: true
 
 ### News
 
+**New England Security Day** is coming to WPI on November 28. See the
+[website](http://nesd.cs.wpi.edu) for more details.
+
+
 **Students!**: I am currently looking for motivated and qualified students. If you
 are a WPI student, please send me an email or stop by.
 
