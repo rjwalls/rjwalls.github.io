@@ -6,22 +6,23 @@ notitle: true
 
 ### News
 
-**New England Security Day** is coming to WPI on November 28. See the
-[website](http://nesd.cs.wpi.edu) for more details.
+**Students!**: I am currently looking for motivated and qualified students. If
+you are a WPI student, please send me an email or stop by. If you are outside
+of WPI, I invite you to apply and then contact me.
 
-
-**Students!**: I am currently looking for motivated and qualified students. If you
-are a WPI student, please send me an email or stop by.
 
 ### About Me
 
 I am an assistant professor in the Department of Computer Science at Worcester
-Polytechnic Institute. My research focuses on large-scale systems security and
-digital forensics. Previously, I was a postdoctoral scholar in Department of
-Electrical Engineering and Computer Science at The Pennsylvania State
-University working with [Prof.  Patrick
-McDaniel](http://www.patrickmcdaniel.org/).  Before that, I attended the School
-of Computer Science at the [University of
+Polytechnic Institute. My research focuses on security and digital forensics.
+In the Fall of 2016, I brought in security researchers from around to the area
+to participate in [New England Security
+Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
+
+Previously, I was a postdoctoral scholar in Department of Electrical
+Engineering and Computer Science at The Pennsylvania State University working
+with [Prof.  Patrick McDaniel](http://www.patrickmcdaniel.org/).  Before that,
+I attended the School of Computer Science at the [University of
 Massachusetts](http://www.cs.umass.edu/) advised by [Prof. Brian
 Levine](http://people.cs.umass.edu/~brian/). My research at UMass focused on
 providing law enforcement with novel techniques for investigating crimes. You
