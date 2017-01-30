@@ -13,11 +13,12 @@ of WPI, I invite you to apply and then contact me.
 
 ### About Me
 
-I am an assistant professor in the Department of Computer Science at Worcester
-Polytechnic Institute. My research focuses on security and digital forensics.
-In the Fall of 2016, I brought in security researchers from around to the area
-to participate in [New England Security
-Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
+I am an assistant professor in the Department of Computer Science at [Worcester
+Polytechnic
+Institute](https://www.wpi.edu/academics/departments/computer-science). My
+research focuses on security and digital forensics.  In the Fall of 2016, I
+brought in security researchers from around to the area to participate in [New
+England Security Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
 
 Previously, I was a postdoctoral scholar in Department of Electrical
 Engineering and Computer Science at The Pennsylvania State University working
