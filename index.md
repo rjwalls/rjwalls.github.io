@@ -6,6 +6,10 @@ notitle: true
 
 ### News
 
+**NESD 2017**: The next [New England Security
+Day](http://nesd.ccis.northeastern.edu/) is going to be held Sept.  29 at
+Northeastern.
+
 **Students!**: I am currently looking for motivated and qualified students. If
 you are a WPI student, please send me an email or stop by. If you are outside
 of WPI, I invite you to apply and then contact me.
@@ -16,7 +20,7 @@ of WPI, I invite you to apply and then contact me.
 I am an assistant professor in the Department of Computer Science at [Worcester
 Polytechnic
 Institute](https://www.wpi.edu/academics/departments/computer-science). My
-research focuses on security and digital forensics.  In the Fall of 2016, I
+current interests focus on low-level software security.  In the Fall of 2016, I
 brought in security researchers from around to the area to participate in [New
 England Security Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
 
@@ -34,6 +38,13 @@ can find my thoughts on the difference between forensics and security
 
 I've had the opportunity to work on a number of interesting research projects
 during my career. Here is a summary of some of my efforts. 
+
+#### Software Security 
+
+The security of embedded systems lags well behind that of general-purpose
+machines. In large part, this difference is due to the lack of hardware
+primitives many security techniques depend upon, e.g., few embedded systems
+sport a memory management unit and thus most lack support for virtual memory.  
 
 #### Web Security and Privacy 
 
