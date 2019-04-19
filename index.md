@@ -6,21 +6,16 @@ notitle: true
 
 ### News
 
-**NESD 2017**: The next [New England Security
-Day](http://nesd.ccis.northeastern.edu/) is going to be held Sept.  29 at
-Northeastern.
-
 **Students!**: I am currently looking for motivated and qualified students. If
 you are a WPI student, please send me an email or stop by. If you are outside
 of WPI, I invite you to apply and then contact me.
-
 
 ### About Me
 
 I am an assistant professor in the Department of Computer Science at [Worcester
 Polytechnic
 Institute](https://www.wpi.edu/academics/departments/computer-science). My
-current interests focus on low-level software security.  In the Fall of 2016, I
+current interests focus on low-level systems security.  In the Fall of 2016, I
 brought in security researchers from around to the area to participate in [New
 England Security Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
 
@@ -39,14 +34,22 @@ can find my thoughts on the difference between forensics and security
 I've had the opportunity to work on a number of interesting research projects
 during my career. Here is a summary of some of my efforts. 
 
-#### Software Security 
+#### Embedded Security 
 
 The security of embedded systems lags well behind that of general-purpose
 machines. In large part, this difference is due to the lack of hardware
 primitives many security techniques depend upon, e.g., few embedded systems
 sport a memory management unit and thus most lack support for virtual memory.  
 
+
 #### Web Security and Privacy 
+
+Domain names have become the Internet’s de facto root of trust. In practice,
+they are also a root of insecurity as common security systems depend on the
+unfounded assumption that domain ownership remains constant; this leaves users
+vulnerable to exploitation when domain ownership changes. In our [Oakland
+2016][oakland16] we find that many seemingly disparate security problems share
+a root cause in residual domain trust abuse.
 
 Online advertising is one of those little annoyances that we all have to deal
 with. "Not so!" Said the plethora of ad blocking extensions promising to
@@ -58,16 +61,6 @@ blockers are not quite what they appear to be.
 
 [imc]: http://rjwalls.github.io/papers/walls15_imc.pdf
 
-If you are in the market for a practical privacy solution, take a look at our
-browser extension [Milk][milk]. Milk implements the concept of *functional
-privacy*: give the users as much privacy as possible without breaking desired
-functionality. The extension does this by putting cookies in separate silos and
-restricting which sites have access to those cookies.  Read more about
-[functional privacy here][funpriv].
-
-[milk]:https://github.com/rjwalls/Milk
-[funpriv]:http://forensics.umass.edu/pubs/walls.hotsec12.pdf
- 
 
 #### Digital Forensics
 
@@ -103,14 +96,14 @@ amount of data that needs to be examines. Read more about block hash filtering
 
 #### Science of Security
 
-Perhaps the most  ambitious projects I've been involved in is the 10-year
-Cyber-Security Collaborative Research Alliance ([CSec CRA][cra]) with the Army
-Research Laboratory, Penn State, Carnegie Mellon, UC Riverside, UC Davis, and
-Indiana University. The project's mandate is to develop a new science of
-security. As part of this effort, I've worked on the foundation for
-representing operational and environmental knowledge---see my work on
-ontologies [here][ontology1]---with the goal of reasoning about both current and
-future states to make optimal security decisions. 
+Perhaps the most  ambitious projects I've been involved with is the 10-year
+Cyber-Security Collaborative Research Alliance with the Army Research
+Laboratory, Penn State, Carnegie Mellon, UC Riverside, UC Davis, and Indiana
+University. The project's mandate is to develop a new science of security. As
+part of this effort, I've worked on the foundation for representing operational
+and environmental knowledge---see my work on ontologies
+[here][ontology1]---with the goal of reasoning about both current and future
+states to make optimal security decisions. 
 
 [cra]: http://cra.psu.edu/
 [ontology1]: http://rjwalls.github.io/papers/oltramari14_stids.pdf
@@ -128,10 +121,5 @@ repositories that you may find helpful.
 presentations, R, and Markdown---Slidify beautifully combines all three. Check
 out my simple Slidify tutorial [here](http://rjwalls.github.io/SlidifyTest).
 
-[Taskr.](https://github.com/rjwalls/Taskr) This simple command line utility
-helps manage how you spend your time. 
 
 
-### Publications
-
-{% include pubs.html %}
