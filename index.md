@@ -14,10 +14,14 @@ of WPI, I invite you to apply and then contact me.
 
 I am an assistant professor in the Department of Computer Science at [Worcester
 Polytechnic
-Institute](https://www.wpi.edu/academics/departments/computer-science). My
-current interests focus on low-level systems security.  In the Fall of 2016, I
-brought in security researchers from around to the area to participate in [New
-England Security Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
+Institute](https://www.wpi.edu/academics/departments/computer-science) and a
+proud member of [The Cake Lab](https://cake-lab.github.io/). My current
+interests focus on systems security and performance and my projects often lie
+at the intersection of software and hardware. Checkout our lab's [project
+page](https://cake-lab.github.io/projects/) to learn more about some of my
+current research projects.    In the Fall of 2016, I brought in security
+researchers from around to the area to participate in [New England Security
+Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
 
 Previously, I was a postdoctoral scholar in Department of Electrical
 Engineering and Computer Science at The Pennsylvania State University working
@@ -29,18 +33,53 @@ providing law enforcement with novel techniques for investigating crimes. You
 can find my thoughts on the difference between forensics and security
 [here](http://forensics.umass.edu/publications.php?q=Walls:2011a).
 
-### Projects
+### Current Projects
 
 I've had the opportunity to work on a number of interesting research projects
-during my career. Here is a summary of some of my efforts. 
+during my career. Checkout [The Cake Lab's](https://cake-lab.github.io/)
+website for the most up to date information about my work. 
 
-#### Embedded Security 
+#### Capr-DL: Confidential and Private Deep Learning 
 
-The security of embedded systems lags well behind that of general-purpose
-machines. In large part, this difference is due to the lack of hardware
-primitives many security techniques depend upon, e.g., few embedded systems
-sport a memory management unit and thus most lack support for virtual memory.  
+Providing users with control over their personal data, while still allowing
+them to benefit from the utility of deep learning, is one of the key challenges
+of contemporary computer science. Our work on the Capr-DL project is focused on
+performing deep learning operations directly on a personal device, with a
+trusted framework, allowing both users to retain control over their private
+data and companies to retain control over their proprietary models. 
 
+#### RIPCORD: Model Execution Caching 
+
+The RIPCORD project proposes a new infrastructure for improving the performance
+of deep learning model serving.  Our work explores the promise of  model
+execution caching as a means for improving the performance of cloud-based deep
+inference serving. Model execution caching requires a CDN-like shared
+infrastructure designed for workloads that see requests for a large and diverse
+set of models.  That is, a workload where the aggregate volume of requests is
+high but no single model is popular enough to merit a dedicated server. 
+
+#### Embedded Systems Security
+
+Embedded systems form the core of critical infrastructure, perform auxiliary
+processing on mobile phones, and permeate homes as smart devices. Yet, embedded
+software security lags behind traditional desktop security. While myriad
+defenses exist for general-purpose systems (e.g., desktops and servers),
+embedded systems present several unique challenges for software security such
+as greater hardware diversity, limited resources (e.g. memory and power), and
+lack of support for common abstractions like virtual memory.
+
+Our work in this area includes defenses for protecting embedded software from
+control-flow hijacking attacks
+([Recfish](http://drops.dagstuhl.de/opus/volltexte/2019/10739/) and
+[Silhouette](https://arxiv.org/abs/1910.12157)); FPGA architectures that
+balance the throughput and resource requirements of AES
+([Drab-Locus](https://arxiv.org/abs/1911.04378)); and techniques for generating
+secure random numbers ([Erhard-RNG](https://arxiv.org/abs/1903.09365)). 
+
+
+### Past Projects
+
+Below are some of the previous projects I have had the privilege to work on. 
 
 #### Web Security and Privacy 
 
