@@ -1,5 +1,5 @@
 name: Robert J. Walls
-url: http://rjwalls.github.io
+url: https://rjwalls.github.io
 
 exclude: [bibble, README.md, Makefile, screenshot.png]
 
@@ -27,7 +27,7 @@ roles:
 front_page_news: 8
 
 # Base pathname for links.
-base: 'http://rjwalls.github.io'
+base: 'https://rjwalls.github.io'
 
 # Navigation bar links.
 #navigation:
