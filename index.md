@@ -161,4 +161,6 @@ presentations, R, and Markdown---Slidify beautifully combines all three. Check
 out my simple Slidify tutorial [here](http://rjwalls.github.io/SlidifyTest).
 
 
+### Selected Publications
 
+{% include pubs.html %}

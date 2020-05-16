@@ -9,7 +9,7 @@ BUILDARGS :=
 _site/index.html _site/wacas14/index.html:
 	jekyll build $(BUILDARGS)
 
-_includes/pubs.html: bib/mypapers.bib bib/publications.tmpl
+_includes/pubs.html: bib/selected.bib bib/publications.tmpl
 	mkdir -p _includes
 	$(PYTHON) bibble/bibble.py $+ > $@
 
