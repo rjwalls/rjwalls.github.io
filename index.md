@@ -8,14 +8,16 @@ notitle: true
 
 **Students!**: I am currently looking for motivated and qualified students. If
 you are a WPI student, please send me an email or stop by. If you are outside
-of WPI, I invite you to apply and then contact me.
+of WPI, I invite you to apply and then contact me. Use keyword fignewtons for a
+more rapid response.
 
 ### About Me
 
 I am an assistant professor in the Department of Computer Science at [Worcester
 Polytechnic
 Institute](https://www.wpi.edu/academics/departments/computer-science) and a
-proud member of [The Cake Lab](https://cake-lab.github.io/). My current
+proud member of [The Cake Lab](https://cake-lab.github.io/) and the Applied
+Logic and Security research group. My current
 interests focus on systems security and performance and my projects often lie
 at the intersection of software and hardware. Checkout our lab's [project
 page](https://cake-lab.github.io/projects/) to learn more about some of my
