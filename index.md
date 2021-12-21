@@ -16,49 +16,22 @@ more rapid response.
 I am an assistant professor in the Department of Computer Science at [Worcester
 Polytechnic
 Institute](https://www.wpi.edu/academics/departments/computer-science) and a
-proud member of [The Cake Lab](https://cake-lab.github.io/) and the Applied
-Logic and Security research group. My current
+proud member of [The Cake Lab](https://cake.wpi.edu/) group. My current
 interests focus on systems security and performance and my projects often lie
-at the intersection of software and hardware. Checkout our lab's [project
-page](https://cake-lab.github.io/projects/) to learn more about some of my
-current research projects.    In the Fall of 2016, I brought in security
-researchers from around to the area to participate in [New England Security
-Day](https://web.cs.wpi.edu/~rjwalls/nesd/).
+at the intersection of software and hardware. 
 
 Previously, I was a postdoctoral scholar in Department of Electrical
 Engineering and Computer Science at The Pennsylvania State University working
 with [Prof.  Patrick McDaniel](http://www.patrickmcdaniel.org/).  Before that,
 I attended the School of Computer Science at the [University of
 Massachusetts](http://www.cs.umass.edu/) advised by [Prof. Brian
-Levine](http://people.cs.umass.edu/~brian/). My research at UMass focused on
-providing law enforcement with novel techniques for investigating crimes. You
-can find my thoughts on the difference between forensics and security
-[here](http://forensics.umass.edu/publications.php?q=Walls:2011a).
+Levine](http://people.cs.umass.edu/~brian/). 
 
 ### Current Projects
 
 I've had the opportunity to work on a number of interesting research projects
 during my career. Checkout [The Cake Lab's](https://cake-lab.github.io/)
 website for the most up to date information about my work. 
-
-#### Capr-DL: Confidential and Private Deep Learning 
-
-Providing users with control over their personal data, while still allowing
-them to benefit from the utility of deep learning, is one of the key challenges
-of contemporary computer science. Our work on the Capr-DL project is focused on
-performing deep learning operations directly on a personal device, with a
-trusted framework, allowing both users to retain control over their private
-data and companies to retain control over their proprietary models. 
-
-#### RIPCORD: Model Execution Caching 
-
-The RIPCORD project proposes a new infrastructure for improving the performance
-of deep learning model serving.  Our work explores the promise of  model
-execution caching as a means for improving the performance of cloud-based deep
-inference serving. Model execution caching requires a CDN-like shared
-infrastructure designed for workloads that see requests for a large and diverse
-set of models.  That is, a workload where the aggregate volume of requests is
-high but no single model is popular enough to merit a dedicated server. 
 
 #### Embedded Systems Security
 
@@ -68,16 +41,37 @@ software security lags behind traditional desktop security. While myriad
 defenses exist for general-purpose systems (e.g., desktops and servers),
 embedded systems present several unique challenges for software security such
 as greater hardware diversity, limited resources (e.g. memory and power), and
-lack of support for common abstractions like virtual memory.
+lack of support for common abstractions like virtual memory. Our work in this
+area includes defenses for protecting embedded software and RTOS kernels from
+memory errors, such as [Kage
+(USENIX'22)](https://www.usenix.org/conference/usenixsecurity22/presentation/du),
+[Silhouette (USENIX'20)](https://arxiv.org/abs/1910.12157), and [Recfish
+(ECRTS'19)](http://drops.dagstuhl.de/opus/volltexte/2019/10739/).
 
-Our work in this area includes defenses for protecting embedded software from
-control-flow hijacking attacks
-([Recfish](http://drops.dagstuhl.de/opus/volltexte/2019/10739/) and
-[Silhouette](https://arxiv.org/abs/1910.12157)); FPGA architectures that
-balance the throughput and resource requirements of AES
-([Drab-Locus](https://arxiv.org/abs/1911.04378)); and techniques for generating
-secure random numbers ([Erhard-RNG](https://arxiv.org/abs/1903.09365)). 
+#### Secure Deep Learning 
 
+ML models are valuable intellectual property due to the investment and
+expertise required to gather training data and construct the model. To monetize
+these models, companies often make them available as a service via APIs over
+the web.  Further, the model owners often rely on others' hardware, such as
+cloud providers or end-users, for model execution.  Our [CVPR'21
+work](https://arxiv.org/abs/2011.14779) demonstrates the feasibility of
+data-free model extraction attacks, i.e., a type of attack that does not
+require knowledge of the underlying training dataset. In our [IC2E'21
+study](https://arxiv.org/abs/2104.15109), we identify performance bottlenecks
+that stymie current attempts to run models in trusted execution environments. 
+
+#### GPU Performance 
+
+The RIPCORD project proposes a new infrastructure for improving the performance
+of deep learning model serving.  In our
+[Performance'20](https://cake.wpi.edu/assets/papers/gilman20_performance.pdf)
+and [Performance'21](https://arxiv.org/pdf/2110.00459.pdf) studies, we
+considered the performance of current GPU concurrency mechanisms.  We examined
+scheduling at the microarchitectural level and found that the lack of
+fine-grained preemption mechanisms, robust task prioritization options, and
+contention-aware thread block placement policies limits the effectiveness of
+existing mechanisms.
 
 ### Past Projects
 
@@ -134,7 +128,6 @@ amount of data that needs to be examines. Read more about block hash filtering
 [decode]: http://forensics.umass.edu/pubs/Walls.usenixSecurity.2011.pdf
 [liftr]:http://forensics.umass.edu/pubs/varma.spsm.2014.pdf
 
-
 #### Science of Security
 
 Perhaps the most  ambitious projects I've been involved with is the 10-year
@@ -149,20 +142,8 @@ states to make optimal security decisions.
 [cra]: http://cra.psu.edu/
 [ontology1]: http://rjwalls.github.io/papers/oltramari14_stids.pdf
 
-#### Improving the Process
-
-Like all computer scientists, I am constantly on the lookout for tools or
-methods that will help me be more efficient in my work. Here are a few
-repositories that you may find helpful.
- 
-[Latex Paper Template.](https://github.com/rjwalls/paper-template) Tired of wasting half an hour setting up your paper
-   directory every time you start a new project? Try my paper template instead.
-
-[Slidify Tutorial.](https://github.com/rjwalls/SlidifyTest) I am a big fan of
-presentations, R, and Markdown---Slidify beautifully combines all three. Check
-out my simple Slidify tutorial [here](http://rjwalls.github.io/SlidifyTest).
-
-
 ### Selected Publications
+
+Below is a partial list of my recent publications.
 
 {% include pubs.html %}
