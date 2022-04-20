@@ -25,7 +25,11 @@ Engineering and Computer Science at The Pennsylvania State University working
 with [Prof.  Patrick McDaniel](http://www.patrickmcdaniel.org/).  Before that,
 I attended the School of Computer Science at the [University of
 Massachusetts](http://www.cs.umass.edu/) advised by [Prof. Brian
-Levine](http://people.cs.umass.edu/~brian/). 
+Levine](http://people.cs.umass.edu/~brian/).  
+
+### News
+
+ - 04/01/2022: Our work ["Holistic Control-Flow Protection on Real-Time Embedded Systems with Kage."](https://www.usenix.org/conference/usenixsecurity22/presentation/du) was selected to appear at the 31st USENIX Security Symposium. 
 
 ### Current Projects
 
@@ -108,22 +112,9 @@ recovering information from phones even if the exact  storage format is unknown
 or the data has been logically deleted. 
 
 [DECODE](https://github.com/umass-forensics/DEC0DE-forensics) is an inference engine that extracts meaningful information from raw
-byte streams. Read more about it [here][decode]. 
-
-[Liftr](https://github.com/umass-forensics/Liftr-forensics) incorporates
+byte streams. Read more about it [here][decode].  [Liftr](https://github.com/umass-forensics/Liftr-forensics) incorporates
 investigator feedback and relevance graphs to improve the results of inference
 engines like DEC0DE. [Paper here][liftr].
-
-[Yapr](https://github.com/rjwalls/YaffsParser) parses the Yaffs File System
-commonly found on (older) Android phones.  Yapr even has limited ability to
-reconstruct past versions of a file by leverage expired pages of flash memory.
-
-[Filtr](https://github.com/rjwalls/Filtr) implements the concept of block hash
-filtering using bloom filters. In short, Filtr will remove an repeated blocks
-of data in a raw byte stream. For flash-based devices, such as phones, Filtr
-often removes 50-90% of the raw data, saving precious time by limited the
-amount of data that needs to be examines. Read more about block hash filtering
-[here][decode]. 
 
 [decode]: http://forensics.umass.edu/pubs/Walls.usenixSecurity.2011.pdf
 [liftr]:http://forensics.umass.edu/pubs/varma.spsm.2014.pdf
