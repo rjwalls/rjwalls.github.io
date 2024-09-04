@@ -13,7 +13,7 @@ more rapid response.
 
 ### About Me
 
-I am an assistant professor in the Department of Computer Science at [Worcester
+I am an associate professor in the Department of Computer Science at [Worcester
 Polytechnic
 Institute](https://www.wpi.edu/academics/departments/computer-science) and a
 proud member of [The Cake Lab](https://cake.wpi.edu/) group. My current
