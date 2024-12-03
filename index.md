@@ -13,8 +13,8 @@ more rapid response.
 
 ### About Me
 
-I am an associate professor in the Department of Computer Science at [Worcester
-Polytechnic
+I am the Director of the Cybersecurity Program and an associate professor in
+the Department of Computer Science at [Worcester Polytechnic
 Institute](https://www.wpi.edu/academics/departments/computer-science) and a
 proud member of [The Cake Lab](https://cake.wpi.edu/) group. My current
 interests focus on systems security and performance and my projects often lie
