@@ -29,13 +29,19 @@ Levine](http://people.cs.umass.edu/~brian/).
 
 ### News
 
- - 04/01/2022: Our work ["Holistic Control-Flow Protection on Real-Time Embedded Systems with Kage."](https://www.usenix.org/conference/usenixsecurity22/presentation/du) was selected to appear at the 31st USENIX Security Symposium. 
+ - 05/01/2026: Congratulations to Vivek Jagadeesh, Charlie Engler, and Nick Golparvar for receiving WPI's Provost's MQP Award for their Major Qualifying Project. It was a pleasure to advise their work.
+ - 05/01/2026: Congratulations to Daniel Reynolds for receiving the CS Ambassador Award.
+ - 04/08/2026: Congratulations to Dr. Tongwei Ren for successfully defending his Ph.D. dissertation, "Securing Embedded System through Firmware Analysis and Transformations." It was a privilege to advise his doctoral work.
+ - 12/04/2025: WPI launched a new [Bachelor of Science in Cybersecurity](https://www.wpi.edu/academics/study/cybersecurity-bs), an interdisciplinary program that brings together computer science, electrical and computer engineering, and hands-on security research.
+ - 11/18/2025: Congratulations to Dr. Guin Gilman for successfully defending her Ph.D. dissertation, "Resource Scheduling for Concurrent Mixed-Priority Workloads on General Purpose GPUs." It was a privilege to advise her doctoral work.
+ - 11/01/2025: Our paper ["'We just did not have that on the embedded system': Insights and Challenges for Securing Microcontroller Systems from the Embedded CTF Competitions"](https://dl.acm.org/doi/abs/10.1145/3719027.3765039) was published at ACM CCS 2025.
+ - 08/13/2025: Our paper ["REVDECODE: Enhancing binary function matching with context-aware graph representations and relevance decoding"](https://www.usenix.org/conference/usenixsecurity25/presentation/ren) was published at USENIX Security 2025.
 
 ### Current Projects
 
 I've had the opportunity to work on a number of interesting research projects
-during my career. Checkout [The Cake Lab's](https://cake-lab.github.io/)
-website for the most up to date information about my work. 
+during my career, including work with students and collaborators in [The Cake
+Lab](https://cake.wpi.edu/).
 
 #### Embedded Systems Security
 
