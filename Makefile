@@ -11,7 +11,7 @@ _site/index.html _site/wacas14/index.html:
 
 _includes/pubs.html: bib/selected.bib bib/publications.tmpl
 	mkdir -p _includes
-	$(PYTHON) bibble/bibble.py $+ > $@
+	$(PYTHON) tools/bibble.py $+ > $@
 
 _site/index.html: $(wildcard *.html) _includes/pubs.html _config.yml \
 	_layouts/default.html 

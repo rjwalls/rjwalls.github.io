@@ -1,7 +1,7 @@
 name: Robert J. Walls
 url: https://robert.walls.ninja
 
-exclude: [bibble, README.md, Makefile, screenshot.png]
+exclude: [README.md, Makefile, screenshot.png]
 
 # use this library to parse Markdown
 #markdown: redcarpet

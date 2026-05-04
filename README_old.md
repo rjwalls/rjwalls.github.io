@@ -28,9 +28,9 @@ Features
 Setup
 -----
 
-1. Install the dependencies. You will need [Python][], [Pybtex][] (`pip install pybtex`), and [Jekyll][] (`gem install jekyll`).
+1. Install the dependencies. You will need [Python][], [Pybtex][] (`pip install pybtex`), [Jinja2][] (`pip install jinja2`), and [Jekyll][] (`gem install jekyll`).
 2. [Fork][] this repository on GitHub.
-3. Clone the fork (along with its submodules) to your own machine: `git clone --recursive git@github.com:yourgroup/research-group-web.git`.
+3. Clone the fork to your own machine: `git clone git@github.com:yourgroup/research-group-web.git`.
 4. Add an "upstream" remote for the original repository so you can stay abreast of bugfixes: `git remote add upstream git://github.com/uwsampa/research-group-web.git`.
 5. Customize. Start with the `_config.yml` file, where you enter the name of the site and its URL.
 6. Type `make` to build the site and then run `jekyll serve -w` to view your site.
@@ -86,9 +86,7 @@ The requirements for building the site are:
 
 * [Jekyll][]: run `gem install jekyll`
 * [Pybtex][]: run `pip install pybtex`
-* [bibble][]: included as a submodule. Because git is cruel, you need to use
-  `git clone --recursive URL` or issue the commands `git submodule init ; git
-  submodule update` to check out the dependency.
+* [Jinja2][]: run `pip install jinja2`
 * ssh and rsync, only if you want to deploy directly.
 
 `make` compiles the bibliography and the website content to the `_site`
@@ -104,5 +102,5 @@ To set up deployments, edit the Makefile and look for the lines where `HOST` and
 To upload a new version of the site via rsync over ssh, type `make deploy`. A web hook does this automatically when you push to GitHub. Be aware that the Makefile is configured to have rsync delete stray files from the destination directory.
 
 [Jekyll]: http://jekyllrb.com/
-[bibble]: https://github.com/sampsyo/bibble/
+[Jinja2]: http://jinja.pocoo.org/
 [pybtex]: http://pybtex.sourceforge.net
