@@ -4,28 +4,24 @@ title: Home
 notitle: true
 ---
 
-### News
-
-**Students!**: I am currently looking for motivated and qualified students. If
-you are a WPI student, please send me an email or stop by. If you are outside
-of WPI, I invite you to apply and then contact me. Use keyword fignewtons for a
-more rapid response.
-
 ### About Me
 
-I am the Director of the Cybersecurity Program and an associate professor in
-the Department of Computer Science at [Worcester Polytechnic
-Institute](https://www.wpi.edu/academics/departments/computer-science) and a
-proud member of [The Cake Lab](https://cake.wpi.edu/) group. My current
-interests focus on systems security and performance and my projects often lie
-at the intersection of software and hardware. 
+I am an associate professor in the Department of Computer Science at
+[Worcester Polytechnic
+Institute](https://www.wpi.edu/academics/departments/computer-science) and the
+Director of WPI's Cybersecurity Program. My work focuses on systems security
+and performance, with an emphasis on the places where software, hardware, and
+real-world constraints meet.
 
-Previously, I was a postdoctoral scholar in Department of Electrical
-Engineering and Computer Science at The Pennsylvania State University working
-with [Prof.  Patrick McDaniel](http://www.patrickmcdaniel.org/).  Before that,
-I attended the School of Computer Science at the [University of
-Massachusetts](http://www.cs.umass.edu/) advised by [Prof. Brian
-Levine](http://people.cs.umass.edu/~brian/).  
+At WPI, my students and I are part of [The Cake Lab](https://cake.wpi.edu/).
+We study how to make computing systems more secure, reliable, and predictable,
+including embedded systems, firmware, GPUs, and shared computing
+infrastructure.
+
+Before joining WPI, I was a postdoctoral scholar at Penn State working with
+[Prof. Patrick McDaniel](http://www.patrickmcdaniel.org/) and earned my Ph.D.
+from the University of Massachusetts Amherst, where I was advised by [Prof.
+Brian Levine](http://people.cs.umass.edu/~brian/).
 
 ### News
 
@@ -40,103 +36,122 @@ Levine](http://people.cs.umass.edu/~brian/).
 ### Current Projects
 
 I've had the opportunity to work on a number of interesting research projects
-during my career, including work with students and collaborators in [The Cake
-Lab](https://cake.wpi.edu/).
+during my career. At WPI, my students and I are part of [The Cake
+Lab](https://cake.wpi.edu/), where we work on systems security and
+performance.
 
-#### Embedded Systems Security
+#### Securing Resource-Constrained Systems
 
-Embedded systems form the core of critical infrastructure, perform auxiliary
-processing on mobile phones, and permeate homes as smart devices. Yet, embedded
-software security lags behind traditional desktop security. While myriad
-defenses exist for general-purpose systems (e.g., desktops and servers),
-embedded systems present several unique challenges for software security such
-as greater hardware diversity, limited resources (e.g. memory and power), and
-lack of support for common abstractions like virtual memory. Our work in this
-area includes defenses for protecting embedded software and RTOS kernels from
-memory errors, such as [Kage
-(USENIX'22)](https://www.usenix.org/conference/usenixsecurity22/presentation/du),
-[Silhouette (USENIX'20)](https://arxiv.org/abs/1910.12157), and [Recfish
-(ECRTS'19)](http://drops.dagstuhl.de/opus/volltexte/2019/10739/).
+Embedded and cyber-physical systems sit inside critical infrastructure,
+vehicles, medical devices, industrial equipment, consumer electronics, and
+smart devices. These systems often lack the abstractions and resources that
+desktop and server defenses assume, such as virtual memory, abundant memory,
+and flexible timing. My group studies how to provide stronger security
+guarantees while respecting the constraints that make these platforms useful in
+the first place.
 
-#### Secure Deep Learning 
+This work includes defenses for embedded software and real-time systems, such
+as [Kage](https://www.usenix.org/conference/usenixsecurity22/presentation/du)
+(USENIX Security 2022),
+[Silhouette](https://arxiv.org/abs/1910.12157) (USENIX Security 2020), and
+[Recfish](http://drops.dagstuhl.de/opus/volltexte/2019/10739/) (ECRTS 2019).
+More recently, our [embedded CTF
+work](https://dl.acm.org/doi/abs/10.1145/3719027.3765039) (ACM CCS 2025)
+studied what these competitions reveal about the practical challenges of
+securing microcontroller systems.
 
-ML models are valuable intellectual property due to the investment and
-expertise required to gather training data and construct the model. To monetize
-these models, companies often make them available as a service via APIs over
-the web.  Further, the model owners often rely on others' hardware, such as
-cloud providers or end-users, for model execution.  Our [CVPR'21
-work](https://arxiv.org/abs/2011.14779) demonstrates the feasibility of
-data-free model extraction attacks, i.e., a type of attack that does not
-require knowledge of the underlying training dataset. In our [IC2E'21
-study](https://arxiv.org/abs/2104.15109), we identify performance bottlenecks
-that stymie current attempts to run models in trusted execution environments. 
+#### Firmware and Binary Analysis
 
-#### GPU Performance 
+In many real systems, source code is unavailable. Instead, analysts must work
+from firmware images or compiled binaries. My group develops techniques for
+recovering useful program structure from binaries, comparing code across
+firmware versions, and enabling security analysis or transformation when the
+original source is unavailable.
 
-The RIPCORD project proposes a new infrastructure for improving the performance
-of deep learning model serving.  In our
-[Performance'20](https://cake.wpi.edu/assets/papers/gilman20_performance.pdf)
-and [Performance'21](https://arxiv.org/pdf/2110.00459.pdf) studies, we
-considered the performance of current GPU concurrency mechanisms.  We examined
-scheduling at the microarchitectural level and found that the lack of
-fine-grained preemption mechanisms, robust task prioritization options, and
-contention-aware thread block placement policies limits the effectiveness of
-existing mechanisms.
+Recent work includes
+[REVDECODE](https://www.usenix.org/conference/usenixsecurity25/presentation/ren)
+(USENIX Security 2025), which uses context-aware graph representations and
+relevance decoding to improve binary function matching.
+
+#### GPU Systems and Scheduling
+
+GPUs are now shared infrastructure for machine learning, scientific computing,
+cloud services, and other performance-critical applications. My group studies
+how concurrent workloads interact on modern GPUs and how better scheduling can
+improve performance, predictability, and isolation.
+
+Recent work includes
+[ReFINE](https://dl.acm.org/doi/abs/10.1145/3694906.3743331) (SPAA 2025), a
+reactive and fine-grained scheduling framework for general-purpose GPUs. This
+builds on earlier work studying GPU concurrency mechanisms under deep learning
+workloads, including
+[Performance 2020](https://cake.wpi.edu/assets/papers/gilman20_performance.pdf)
+and [Performance 2021](https://arxiv.org/abs/2110.00459).
 
 ### Past Projects
 
 Below are some of the previous projects I have had the privilege to work on. 
 
+#### Secure Deep Learning
+
+ML models are valuable intellectual property due to the investment and
+expertise required to gather training data and construct the model. To
+monetize these models, companies often make them available as a service through
+APIs. At the same time, model owners often rely on hardware operated by cloud
+providers or end users.
+
+Our [Data-Free Model Extraction](https://arxiv.org/abs/2011.14779) work (CVPR
+2021) demonstrated the feasibility of extracting models without knowledge of
+the underlying training dataset. In our [trusted execution environment
+study](https://arxiv.org/abs/2104.15109) (IC2E 2021), we identified
+performance bottlenecks that complicate efforts to run models in trusted
+execution environments.
+
 #### Web Security and Privacy 
 
-Domain names have become the Internet’s de facto root of trust. In practice,
+Domain names have become the Internet's de facto root of trust. In practice,
 they are also a root of insecurity as common security systems depend on the
 unfounded assumption that domain ownership remains constant; this leaves users
-vulnerable to exploitation when domain ownership changes. In our [Oakland
-2016][oakland16] we find that many seemingly disparate security problems share
-a root cause in residual domain trust abuse.
+vulnerable to exploitation when domain ownership changes. In our
+[Domain-Z](http://rjwalls.github.io/papers/domain-z-ieee.pdf) work (IEEE
+Symposium on Security and Privacy 2016), we found that many seemingly
+disparate security problems share a root cause in residual domain trust abuse.
 
-Online advertising is one of those little annoyances that we all have to deal
-with. "Not so!" Said the plethora of ad blocking extensions promising to
-improve your browser experience. Not only do they block ads, they also claim to
-help preserve your privacy and protect  you against the growing trend of
-malicious advertisements. In our [IMC 2015 work][imc] my co-authors and I take
-a closer look at the most popular ad blocking software. We find that ad
-blockers are not quite what they appear to be.
+In our [ad blocking study][imc] (IMC 2015), we studied the most popular ad
+blocking software and examined the gap between how ad blockers are marketed
+and how they behave in practice.
 
 [imc]: http://rjwalls.github.io/papers/walls15_imc.pdf
 
 
 #### Digital Forensics
 
-Mobile phones contain evidence that is invaluable for criminal investigations.
-However, commercially-available forensic tools must be hand-tailored to each
-phone model. If no tools support the target phone, then extracting the phone's
-information requires investigators to  examine the stored data byte by byte.
-To address this problem,  I've developed general algorithms and techniques for
-recovering information from phones even if the exact  storage format is unknown
-or the data has been logically deleted. 
+Mobile phones can contain evidence that is invaluable for criminal
+investigations, but forensic tools have often needed to be hand-tailored to
+specific phone models. When no tool supports a target phone, investigators may
+be forced to examine raw storage manually.
 
-[DECODE](https://github.com/umass-forensics/DEC0DE-forensics) is an inference engine that extracts meaningful information from raw
-byte streams. Read more about it [here][decode].  [Liftr](https://github.com/umass-forensics/Liftr-forensics) incorporates
-investigator feedback and relevance graphs to improve the results of inference
-engines like DEC0DE. [Paper here][liftr].
+The [DEC0DE](https://github.com/umass-forensics/DEC0DE-forensics) project grew
+out of our [mobile phone forensics work][decode] (USENIX Security 2011). It is
+an inference engine that extracts meaningful information from raw byte streams.
+[Liftr][liftr] (SPSM 2014) incorporates investigator feedback and relevance
+graphs to improve the results of inference engines like DEC0DE.
 
 [decode]: http://forensics.umass.edu/pubs/Walls.usenixSecurity.2011.pdf
 [liftr]:http://forensics.umass.edu/pubs/varma.spsm.2014.pdf
 
 #### Science of Security
 
-Perhaps the most  ambitious projects I've been involved with is the 10-year
+One of the most ambitious projects I have been involved with was the 10-year
 Cyber-Security Collaborative Research Alliance with the Army Research
 Laboratory, Penn State, Carnegie Mellon, UC Riverside, UC Davis, and Indiana
-University. The project's mandate is to develop a new science of security. As
-part of this effort, I've worked on the foundation for representing operational
-and environmental knowledge---see my work on ontologies
-[here][ontology1]---with the goal of reasoning about both current and future
-states to make optimal security decisions. 
+University. The project's mandate was to develop a new science of security.
 
-[cra]: http://cra.psu.edu/
+As part of this effort, I worked on foundations for representing operational
+and environmental knowledge, including [work on ontologies][ontology1] (STIDS
+2014), with the goal of reasoning about both current and future system states
+to make better security decisions.
+
 [ontology1]: http://rjwalls.github.io/papers/oltramari14_stids.pdf
 
 ### Selected Publications
